@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:id="@+id/menu_location_stipe"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:background="@color/white" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/content_description"
+                android:src="@android:drawable/ic_menu_directions" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/menu_location_stipe"
+            android:ems="10"
+            android:hint="@string/near_caps"
+            android:maxLength="20"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/menu_location_services"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:contentDescription="@string/content_description"
+            android:src="@android:drawable/ic_menu_compass" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/menu_mylocation" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+
+        <ListView
+            android:id="@+id/location_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:divider="@drawable/simple_divider"
+            android:dividerHeight="1px" />
+
+        <ProgressBar
+            android:id="@+id/location_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/location_list_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/no_data"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

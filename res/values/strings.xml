@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZETcheck</string>
+    <string name="search_hint_stations">Pretraži stanice</string>
+    <string name="default_station_name">Dobrodol-Šimunčevećk</string>
+    <string name="default_line_number">6</string>
+    <string name="default_departure_time">2</string>
+    <string name="title_section1">OKRETIŠTE</string>
+    <string name="title_section2">ISTOK</string>
+    <string name="title_section3">ZAPAD</string>
+    <string name="title_section4">SJEVER</string>
+    <string name="title_section5">JUG</string>
+    <string name="title_section6">NESVRSTANO</string>
+    
+    <string name="near_caps">U BLIZINI</string>
+    <string name="settings_caps">POSTAVKE</string>
+    <string name="stations_caps">STANICE</string>
+    <string name="favorites_caps">FAVORITI</string>
+    <string name="zetweb_caps">ZETweb</string>
+    <string name="lines_caps">LINIJE</string>
+    
+    <string name="no_favorites">nema favorita</string>
+    <string name="no_data">nema podataka</string>
+    <string name="content_description">none</string>
+    <string name="mail">zetcheck@gmail.com</string>
+    <string name="search_lines">Pretraži linije</string>
+    <string name="search_stations">Pretraži stanice</string>
+    <string name="loading">Učitavam</string>
+    <string name="settings">Postavke</string>
+    <string name="favorites">Favoriti</string>
+    <string name="delete_data">Izbriši sve podatke</string>
+    
+    <string name="favorites_on_main">Favoriti na početnoj</string>
+    <string name="help_string">Pomoć</string>
+    <string name="info_string">Info</string>
+    <string name="language_string">Jezik</string>
+    <string name="english_string">Engleski</string>
+    <string name="croatian_string">Hrvatski</string>
+    <string name="location_ver_string">Koristi stari U BLIZINI</string>
+    
+    <string name="link_zet_news">http://www.zet.hr/novosti.aspx</string>
+    <string name="check_connection">Please check your connection and restart application.</string>
+    <string name="locations_disabled_info">Lokacijske usluge su onemogućene. Za prikaz ovog sadržaja one su nužne.</string>
+    <string name="locations_enable">Omogući lokacijske usluge</string>
+    <string name="cancel">Odustani</string>
+    <string name="checking_network_status">Provjeravam status mreže</string>
+    <string name="searching_stations_data">Tražim podatke o stanicama</string>
+    <string name="loading_data">Učitavam podatke</string>
+    <string name="data_loaded_stations">Podaci o stanicama učitani</string>
+    <string name="connecting">Spajam se na mrežu</string>
+    <string name="getting_stations_data">Primam podatke o stanicama</string>
+    <string name="getting_successful">Podaci uspješno primljeni</string>
+    <string name="parsing_stations_data">Obrađujem podatke o stanicama</string>
+    <string name="saving_stations_data">Spremam podatke o stanicama</string>
+    <string name="data_saved">Podaci spremljeni</string>
+    <string name="saving_stations_error">Neuspjelo spremanje podataka o stanicama</string>
+    <string name="searching_lines_data">Tražim podatke o linijama</string>
+    <string name="data_loaded_lines">Podaci o linijama učitani</string>
+    <string name="getting_lines_data">Primam podatke o linijama</string>
+    <string name="parsing_lines_data">Obrađujem podatke o linijama</string>
+    <string name="saving_lines_data">Spremam podatke o linijama na uređaj</string>
+    <string name="lines_saving_error">Neuspjelo spremanje podataka o linijama</string>
+    <string name="loading_settings">Učitavam postavke</string>
+    <string name="yes">DA</string>
+    <string name="no">NE</string>
+    <string name="master_reset_warning">Jeste li sigurni da želite izbrisati sve postavke programa? Program ćete morati ponovno pokrenuti nakon brisanja</string>
+    <string name="info">Kontakt:\n\tzetcheck@gmail.com\n\nAplikacija je samo informativnog karaktera, korištenje je na vlastitu odgovornost.</string>
+    <string name="help">U BLIZINI:\n\tVama najbliže stanice, u krugu od 700m\n\nSTANICE:\n\tPretraga stanica po njihovom imenu.\nZvjezdica u kutu označava vaše omiljene stanice.\nCrvena vremena označuju manje sigurne podatke.\n\nFAVORITI:\n\tVaše omiljene stanice.\n\nLINIJE:\n\tPopis linija te trenutne lokacije pojedinih vozila.\n\nLajkajte na facebooku!</string>
+
+    <string name="link_fb_page">https://www.facebook.com/ZETcheck</string>
+    
+</resources>

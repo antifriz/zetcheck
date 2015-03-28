@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZETcheck</string>
+    <string name="search_hint_stations">Search all stations</string>
+    <string name="default_station_name">Dobrodol-Šimunčevećk</string>
+    <string name="default_line_number">6</string>
+    <string name="default_departure_time">2</string>
+    <string name="title_section1">TURNAROUND</string>
+    <string name="title_section2">EAST</string>
+    <string name="title_section3">WEST</string>
+    <string name="title_section4">NORTH</string>
+    <string name="title_section5">SOUTH</string>
+    <string name="title_section6">OTHER</string>
+    
+    <string name="near_caps">NEARBY</string>
+    <string name="settings_caps">SETTINGS</string>
+    <string name="stations_caps">STATIONS</string>
+    <string name="favorites_caps">FAVORITES</string>
+    <string name="zetweb_caps">ZETweb</string>
+    <string name="lines_caps">LINES</string>
+    
+    <string name="no_favorites">no favorites</string>
+    <string name="no_data">no data</string>
+    <string name="content_description">none</string>
+    <string name="mail">zetcheck@gmail.com</string>
+    <string name="search_lines">Search lines</string>
+    <string name="search_stations">Search stations</string>
+    <string name="loading">Loading</string>
+    <string name="settings">Settings</string>
+    <string name="favorites">Favorites</string>
+    <string name="delete_data">Delete all data</string>
+    
+    <string name="favorites_on_main">Favorites on main</string>
+        <string name="help_string">Help</string>
+    <string name="info_string">Info</string>
+    <string name="language_string">Language</string>
+    <string name="english_string">English</string>
+    <string name="croatian_string">Croatian</string>
+    
+    
+
+    <string name="check_connection">Please check your connection and restart application.</string>
+    <string name="locations_disabled_info">Location services have been disabled. They are necessary to show this content.</string>
+    <string name="locations_enable">Enable location services</string>
+    <string name="cancel">Cancel</string>
+    <string name="checking_network_status">Checking for networks</string>
+    <string name="searching_stations_data">Searching for station data</string>
+    <string name="loading_data">Loading data</string>
+    <string name="data_loaded_stations">Station data loaded</string>
+    <string name="connecting">Connecting to the network</string>
+    <string name="getting_stations_data">Getting stations data</string>
+    <string name="getting_successful">Getting stations data successful</string>
+    <string name="parsing_stations_data">Parsing stations data</string>
+    <string name="saving_stations_data">Saving stations data</string>
+    <string name="data_saved">Data saved</string>
+    <string name="saving_stations_error">Saving station data unsuccessful</string>
+    <string name="searching_lines_data">Searching for lines data</string>
+    <string name="data_loaded_lines">Lines data loaded</string>
+    <string name="getting_lines_data">Getting lines data</string>
+    <string name="parsing_lines_data">Parsing lines data</string>
+    <string name="saving_lines_data">Saving lines data on your device</string>
+    <string name="lines_saving_error">Saving lines data unsuccessful</string>
+    <string name="loading_settings">Loading the settings</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="master_reset_warning">Are you sure you want to delete all your settings? You will have to restart the application.</string>
+    <string name="info">Contact:\n\tzetcheck@gmail.com\n\nTimes may vary. We are not responsible for delays.</string>
+    <string name="help">NEARBY:\n\tStation closest to you, within 700m\n\nSTATIONS:\n\tSearch all stations by their name.\nThe little star in the corner marks you favorite station.\nTimes shown in red denote unreliable times.\n\nFAVORITES:\n\tStations you wish to save.\n\nLINES:\n\tA list of lines and vehicle location on those lines.\n\nLike us on facebook!</string>
+
+</resources>

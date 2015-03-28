@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/realtime_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+    <RelativeLayout
+        android:id="@+id/live_station_thumbnail"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/circle" >
+
+        <TextView
+            android:id="@+id/live_station_line_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/default_line_number"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/live_station_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/live_station_thumbnail"
+        android:layout_toStartOf="@+id/live_station_time_min"
+        android:paddingLeft="0dp"
+        android:textColor="#333333"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/live_station_time_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/live_station_time_sec"
+        android:layout_marginRight="3dp"
+        android:textColor="#333333"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/live_station_time_sec"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="15dp"
+        android:layout_marginRight="6dp"
+        android:textColor="#333333"
+        android:textSize="3sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

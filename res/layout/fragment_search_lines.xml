@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".LiveDisplayActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:id="@+id/lines_stipe"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:background="@color/white" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@android:drawable/ic_menu_search" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/lines_input"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/lines_stipe"
+            android:layout_toLeftOf="@+id/lines_close"
+            android:background="@drawable/lines_search_input"
+            android:ems="10"
+            android:hint="@string/search_lines"
+            android:inputType="number"
+            android:maxLength="3"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:textSize="22sp" >
+        </EditText>
+
+        <ImageView
+            android:id="@id/lines_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/menu_lines" />
+
+    <ListView
+        android:id="@+id/lines_results"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:divider="@drawable/simple_divider"
+        android:dividerHeight="1px" >
+    </ListView>
+
+    <!-- <ProgressBar -->
+    <!-- android:id="@+id/lines_progress_bar" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="0dp" -->
+    <!-- android:layout_gravity="center" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:visibility="gone" /> -->
+
+</LinearLayout>

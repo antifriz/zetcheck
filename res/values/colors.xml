@@ -1,0 +1,19 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="RAL5015">#AAAAAA</color>
+    <color name="DKGREY">#333333</color>
+    <color name="zet_blue">#023F98</color>
+    <color name="white">#FFFFFF</color>
+    <color name="shitty_yellow">#000000</color>
+    <color name="lin_layout_bg_color">#222222</color>
+    <color name="TRAM">#0099CC</color>
+    <color name="BUS">#FF8800</color>
+    <color name="menu_lines">#DD0872</color>
+    <color name="menu_mylocation">#005FE5</color>
+    <color name="menu_stations">#47A845</color>
+    <color name="menu_favorites">#0AB4B4</color>
+    <color name="menu_ZETweb">#E41A1C</color>
+    <color name="menu_preferences">#FF7F00</color>
+
+</resources>

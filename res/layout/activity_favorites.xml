@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp" >
+
+        <RelativeLayout
+            android:id="@+id/favorites_stipe"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:background="@color/white" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/content_description"
+                android:src="@android:drawable/star_big_on" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/favorites_stipe"
+            android:ems="10"
+            android:hint="@string/favorites"
+            android:maxLength="20"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/favorites_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            android:contentDescription="@string/content_description"
+            android:src="@android:drawable/ic_menu_edit" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/menu_favorites" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/favorites_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/simple_divider"
+            android:dividerHeight="1px" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/favorites_list_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/no_favorites"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

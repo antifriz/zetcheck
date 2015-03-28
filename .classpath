@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/example/zetcheck/CoolAdapter.java|com/example/zetcheck/StationChooserAdapter.java|com/example/zetcheck/RealTimeStation.java|com/example/zetcheck/LiveDisplayActivity.java|com/example/zetcheck/VehiclePassing.java|com/example/zetcheck/ThreadCompleteListener.java|com/example/zetcheck/NotifyingThread.java|com/example/zetcheck/StationMainActivity.java|com/example/zetcheck/RealTimeGate.java|com/example/zetcheck/LinearLayoutAdapter.java|com/example/zetcheck/StationActivity.java|com/zetcheck/LinearLayoutAdapter.java|com/zetcheck/VehiclePassing.java|com/zetcheck/ThreadCompleteListener.java|com/zetcheck/SimpleDialog.java|com/zetcheck/LiveDisplayActivity.java|com/zetcheck/NotifyingThread.java|com/zetcheck/RealTimeGate.java|com/zetcheck/RealTimeStation.java|com/zetcheck/StationActivity.java|com/zetcheck/SlidingStationActivity_new.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

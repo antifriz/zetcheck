@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp" >
+
+    <!-- @drawable/list_row_selector -->
+
+    <LinearLayout
+        android:id="@+id/vehicles_row_bar_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/vehicles_row_to"
+        android:background="@drawable/rounded_corners_progress_back"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" >
+
+        <View
+            android:id="@+id/vehicles_row_bar"
+            android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:layout_gravity="center"
+            android:layout_height="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_corners_progress" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicles_row_from"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vehicles_row_bar_back"
+        android:textColor="#444444"
+        android:textScaleX="1"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/vehicles_row_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vehicles_row_destination"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/vehicles_row_destination"
+        android:gravity="right"
+        android:textColor="#444444"
+        android:textScaleX="1"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/vehicles_row_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/vehicles_row_from"
+        android:layout_toRightOf="@+id/vehicles_row_subline"
+        android:gravity="right"
+        android:textColor="#333333"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vehicles_row_subline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:textColor="#333333"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
